@@ -1,0 +1,65 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.resultScreen {
+    border: 1px solid black;
+    text-align: right;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 3vh;
+    margin-bottom: 10px;
+    background-color: #EBEBEB;
+}
+
+.fullCalculator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    max-width: 20vw;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #CDCDCD;
+}
+
+.clearAndDeleteButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.clearAndDeleteButtons > button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 3vh;
+    height: auto;
+    max-width: 100%;
+    width: 50%;
+}
+
+.numbersAndOperators {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.numbersAndOperatorsRow {
+    display: flex;
+    gap: 10px;
+}
+
+.subElement {
+    border: 1px solid black;
+    width: 100%;
+    max-width: 10vw;
+    height: auto;
+    border-radius: 5px;
+    font-size: 3vh;
+}
